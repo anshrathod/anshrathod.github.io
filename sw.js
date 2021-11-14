@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-b938c990ef6baafeba69.js"
+    "url": "webpack-runtime-70fad18e05c9242aabe8.js"
   },
   {
     "url": "styles.0b77d41b93c6e5c24ee3.css"
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "framework-86a61bb31bcf9da62a8b.js"
   },
   {
-    "url": "app-0222d3542c98c6e8ea14.js"
+    "url": "app-f6d139073e6c185a19e8.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b4e134453f5636d4fdf5cb1b910e9e3c"
+    "revision": "d92d6d4f26ba4407215623957e9afa91"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-ca7625a901b217b3cc85.js"
@@ -51,7 +51,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "474ffd994df1381c791f18bae5f134d0"
+    "revision": "702b590511fbfee6a6d8431a01624c31"
   },
   {
     "url": "polyfill-635a9dfd597478a1f0fa.js"
@@ -72,7 +72,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/230038957.json",
-    "revision": "a2ae02cb712e53afb6254fa2c55c8f94"
+    "revision": "d8ba48a44e448c3aa32f3ab728621cb5"
   },
   {
     "url": "page-data/sq/d/3009907209.json",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/3214568256.json",
-    "revision": "f04a3ffa6f7054acf2fad7f2a3abd2ef"
+    "revision": "7cab72a29ca9c9d6a0912d53b0bc4980"
   },
   {
     "url": "page-data/sq/d/3252677741.json",
@@ -95,7 +95,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/255666022.json",
-    "revision": "6a9b942d2858a351a1337a3332448b23"
+    "revision": "1a53f9bb9f2d75d6e5ec27c80d49b220"
   },
   {
     "url": "component---src-pages-series-index-js-e3542f53767d6c35ce4f.js"
@@ -110,7 +110,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "d2ff4a0a2f10d84a728de9a06513c3cb"
+    "revision": "894e71132647dad634c0679d72150098"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -197,12 +197,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/portfolio-website`), ``)
+  pathname = pathname.replace(new RegExp(`^/anshrathod.github.io`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/portfolio-website/app-0222d3542c98c6e8ea14.js`))) {
+  if (!resources || !(await caches.match(`/anshrathod.github.io/app-f6d139073e6c185a19e8.js`))) {
     return await fetch(event.request)
   }
 
@@ -215,7 +215,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/portfolio-website/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/anshrathod.github.io/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
