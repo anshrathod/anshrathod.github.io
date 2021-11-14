@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-70fad18e05c9242aabe8.js"
+    "url": "webpack-runtime-21bd37f6ccedcf2b3e1a.js"
   },
   {
     "url": "styles.0b77d41b93c6e5c24ee3.css"
@@ -36,22 +36,14 @@ self.__precacheManifest = [
     "url": "framework-86a61bb31bcf9da62a8b.js"
   },
   {
-    "url": "app-f6d139073e6c185a19e8.js"
+    "url": "app-3e6d2b75b48fa05b4a5f.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "d92d6d4f26ba4407215623957e9afa91"
+    "revision": "5ec03cd1ded7e988c262e9b58988bba7"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-ca7625a901b217b3cc85.js"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "f2c002077289a7e1ac538802bc7f5314"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "702b590511fbfee6a6d8431a01624c31"
   },
   {
     "url": "polyfill-635a9dfd597478a1f0fa.js"
@@ -72,7 +64,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/230038957.json",
-    "revision": "d8ba48a44e448c3aa32f3ab728621cb5"
+    "revision": "a8c0184b18637b3aff383db83f347931"
   },
   {
     "url": "page-data/sq/d/3009907209.json",
@@ -80,11 +72,15 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/3214568256.json",
-    "revision": "7cab72a29ca9c9d6a0912d53b0bc4980"
+    "revision": "bafa7bdc79ecc96d94619932eb9c0917"
   },
   {
     "url": "page-data/sq/d/3252677741.json",
     "revision": "6f6f77eb775cff498f016df56d2c9a78"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "2f47febb6e213f983691ea136da23806"
   },
   {
     "url": "component---src-pages-projects-index-js-0ad0cad9ae22f2e162d1.js"
@@ -95,7 +91,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/255666022.json",
-    "revision": "1a53f9bb9f2d75d6e5ec27c80d49b220"
+    "revision": "876eb42ed08af82b42383bab528b9102"
   },
   {
     "url": "component---src-pages-series-index-js-e3542f53767d6c35ce4f.js"
@@ -110,7 +106,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "894e71132647dad634c0679d72150098"
+    "revision": "b03cb8bc342cf7f86f6238f61a48f107"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -197,12 +193,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/anshrathod.github.io`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/anshrathod.github.io/app-f6d139073e6c185a19e8.js`))) {
+  if (!resources || !(await caches.match(`/app-3e6d2b75b48fa05b4a5f.js`))) {
     return await fetch(event.request)
   }
 
@@ -215,7 +211,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/anshrathod.github.io/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
