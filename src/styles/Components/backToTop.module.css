@@ -1,0 +1,51 @@
+.btn{
+  position: fixed; 
+   width: fit-content;
+   padding: 10px;
+   right: 100px;
+   bottom: 40px;
+   vertical-align: middle;
+   font-size: 15px;
+   height: 48px;
+   z-index: 1;
+   cursor: pointer;
+   border: 2px solid var(--text-color);
+   border-radius: 25px;
+   color: var(--text-color);
+}
+
+svg{
+  height: 20px;
+  width: 20px;
+  margin-right:5px;
+  color: var(--text-color);
+}
+
+g{
+  fill: var(--text-color);
+}
+
+.text{
+  color:var(--text-color);
+}
+
+@media screen and (max-width:480px) {
+
+  .btn{
+    height: 38px;
+    right: 35px;
+    bottom: 75px;
+    padding: 2.5px;
+  }
+  
+  .text{
+    font-size: 0px;
+  }
+  
+  img{
+    height: 20px;
+    width: 20px;
+    margin: 4px;
+  }  
+
+}

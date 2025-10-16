@@ -1,0 +1,185 @@
+{
+  "title": "Series",
+  "series_list": [
+    {
+      "id": "1",
+      "name": "The Office",
+      "url": "https://www.imdb.com/title/tt0386676/"
+    },
+    {
+      "id": "2",
+      "name": " Breaking Bad",
+      "url": "https://www.imdb.com/title/tt0903747/"
+    },
+    {
+      "id": "3",
+      "name": "Sherlock",
+      "url": "https://www.imdb.com/title/tt1475582/"
+    },
+    {
+      "id": "4",
+      "name": "The Game of Thrones",
+      "url": "https://www.imdb.com/title/tt0944947/"
+    },
+    {
+      "id": "5",
+      "name": "TVF Pitchers",
+      "url": "https://www.imdb.com/title/tt4742876/"
+    },
+    {
+      "id": "6",
+      "name": "Seinfeld",
+      "url": "https://www.imdb.com/title/tt0098904/"
+    },
+    {
+      "id": "7",
+      "name": "Kota factory",
+      "url": "https://www.imdb.com/title/tt9432978/"
+    },
+    {
+      "id": "8",
+      "name": "Peaky Blinders",
+      "url": "https://www.imdb.com/title/tt2442560/"
+    },
+    {
+      "id": "9",
+      "name": "The Mandalorian",
+      "url": "https://www.imdb.com/title/tt8111088/"
+    },
+    {
+      "id": "10",
+      "name": "TVF Aspirants",
+      "url": "https://www.imdb.com/title/tt14392248/"
+    },
+    {
+      "id": "11",
+      "name": "Stranger Things",
+      "url": "https://www.imdb.com/title/tt4574334/"
+    },
+    {
+      "id": "12",
+      "name": "Parks and Recreation",
+      "url": "https://www.imdb.com/title/tt1266020/"
+    },
+    {
+      "id": "13",
+      "name": "The Boys",
+      "url": "https://www.imdb.com/title/tt1190634/"
+    },
+    {
+      "id": "14",
+      "name": "Panchayat",
+      "url": "https://www.imdb.com/title/tt12004706/"
+    },
+    {
+      "id": "15",
+      "name": "The Family Man",
+      "url": "https://www.imdb.com/title/tt9544034/"
+    },
+    {
+      "id": "16",
+      "name": "Mr. Robot",
+      "url": "https://www.imdb.com/title/tt4158110/"
+    },
+    {
+      "id": "17",
+      "name": "Chernobyl",
+      "url": "https://www.imdb.com/title/tt7366338/"
+    },
+    {
+      "id": "18",
+      "name": "Silicon Valley",
+      "url": "https://www.imdb.com/title/tt2575988/"
+    },
+    {
+      "id": "19",
+      "name": "Schitt's Creek",
+      "url": "https://www.imdb.com/title/tt3526078/"
+    },
+    {
+      "id": "20",
+      "name": "Brooklyn-99",
+      "url": "https://www.imdb.com/title/tt2467372/"
+    },
+    {
+      "id": "21",
+      "name": "The Big Bang Theory",
+      "url": "https://www.imdb.com/title/tt0898266/"
+    },
+    {
+      "id": "22",
+      "name": "Money Heist",
+      "url": "https://www.imdb.com/title/tt6468322/"
+    },
+    {
+      "id": "23",
+      "name": "The Good Doctor",
+      "url": "https://www.imdb.com/title/tt6470478/"
+    },
+    {
+      "id": "24",
+      "name": "Suits",
+      "url": "https://www.imdb.com/title/tt1632701/"
+    },
+    {
+      "id": "25",
+      "name": "Hostages",
+      "url": "https://www.imdb.com/title/tt9094282"
+    },
+    {
+      "id": "26",
+      "name": "How to get away with murder",
+      "url": "https://www.imdb.com/title/tt3205802"
+    },
+    {
+      "id": "27",
+      "name": "Inside Edge",
+      "url": "https://www.imdb.com/title/tt6112414"
+    },
+    {
+      "id": "28",
+      "name": "Mirzapur",
+      "url": "https://www.imdb.com/title/tt6473300"
+    },
+    {
+      "id": "29",
+      "name": "Paatal Lok",
+      "url": "https://www.imdb.com/title/tt9680440"
+    },
+    {
+      "id": "30",
+      "name": "Sacred Games",
+      "url": "https://www.imdb.com/title/tt6077448"
+    },
+    {
+      "id": "31",
+      "name": "Sex Education",
+      "url": "https://www.imdb.com/title/tt7767422"
+    },
+    {
+      "id": "32",
+      "name": "The Purge",
+      "url": "https://www.imdb.com/title/tt2184339"
+    },
+    {
+      "id": "33",
+      "name": "West World",
+      "url": "https://www.imdb.com/title/tt0475784"
+    },
+    {
+      "id": "34",
+      "name": "The Good Place",
+      "url": "https://www.imdb.com/title/tt4955642"
+    },
+    {
+      "id": "35",
+      "name": "TVF Tripling",
+      "url": "https://www.imdb.com/title/tt6005644"
+    },
+    {
+      "id": "36",
+      "name": "Special OPS",
+      "url": "https://www.imdb.com/title/tt11854694"
+    }
+  ]
+}

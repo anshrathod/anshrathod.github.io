@@ -1,0 +1,229 @@
+/* Vertical Education Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 24px);
+  margin: 12px;
+  margin-top:32px;
+
+  background: var(--card-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+
+  transition: all var(--transition-base);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  position: relative;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background: var(--gradient-education);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform var(--transition-base);
+}
+
+.card:hover {
+  transform: translateY(var(--hover-lift));
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 8px 16px rgba(16, 185, 129, 0.2);
+  border-color: #10b981;
+}
+
+.card:hover::before {
+  transform: scaleY(1);
+  transform-origin: top;
+}
+
+/* Image Header - Full Width */
+.imageHeader {
+  /* width: 100%; */
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); */
+  padding: 32px;
+  margin:32px;
+  position: relative;
+  transition: all var(--transition-base);
+}
+
+
+.logo {
+  /* width: 100%; */
+  width: max-content;
+  height:max-content;
+  object-fit: contain;
+  transition: transform var(--transition-base);
+}
+
+.card:hover .logo {
+  transform: scale(var(--hover-scale-small));
+}
+
+/* Content Section */
+.content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.degree {
+  margin: 0 0 4px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-color, #1f2937);
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+
+.institute {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color, #374151);
+  line-height: 1.5;
+}
+
+/* Meta Information with Icons */
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-color, #e5e7eb);
+}
+
+.location,
+.year {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary, #6b7280);
+  line-height: 1.5;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: var(--yellow, #fbbf24);
+}
+
+.card:hover .location,
+.card:hover .year {
+  color: var(--text-color, #374151);
+}
+
+/* Grid Container */
+.educationGrid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -12px;
+  padding: 20px 0;
+}
+
+/* Responsive Breakpoints */
+@media screen and (max-width: 1024px) {
+  .card {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+
+  .imageHeader {
+    height: 160px;
+    padding: 28px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .degree {
+    font-size: 18px;
+  }
+
+  .institute {
+    font-size: 15px;
+  }
+
+  .location,
+  .year {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: calc(50% - 16px);
+    margin: 8px;
+  }
+
+  .imageHeader {
+    height: 140px;
+    padding: 24px;
+  }
+
+  .content {
+    padding: 18px;
+  }
+
+  .degree {
+    font-size: 17px;
+  }
+
+  .institute {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .meta {
+    padding-top: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+    margin: 8px 0;
+    border-radius: 12px;
+  }
+
+  .imageHeader {
+    height: 160px;
+    padding: 28px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .degree {
+    font-size: 16px;
+  }
+
+  .institute {
+    font-size: 14px;
+  }
+
+  .location,
+  .year {
+    font-size: 13px;
+  }
+
+  .icon {
+    width: 14px;
+    height: 14px;
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "title": "Animes",
+  "animes": [
+    {
+      "id": "1",
+      "name": "Naruto",
+      "url": "https://www.crunchyroll.com/en-gb/naruto"
+    },
+    {
+      "id": "2",
+      "name": "Naruto Shippuden",
+      "url": "https://www.crunchyroll.com/en-gb/naruto-shippuden"
+    },
+    {
+      "id": "3",
+      "name": "Boruto: Naruto Next Generations",
+      "url": "https://www.crunchyroll.com/en-gb/boruto-naruto-next-generations"
+    },
+    {
+      "id": "4",
+      "name": "One Piece",
+      "url": "https://www.crunchyroll.com/en-gb/one-piece"
+    },
+    {
+      "id": "5",
+      "name": "Death Note",
+      "url": "https://www.crunchyroll.com/en-gb/death-note"
+    },
+    {
+      "id": "6",
+      "name": "My Hero Academia",
+      "url": "https://www.crunchyroll.com/en-gb/my-hero-academia"
+    },
+    {
+      "id": "7",
+      "name": "Dragon ball",
+      "url": "https://www.crunchyroll.com/library/Dragon_Ball"
+    },
+    {
+      "id": "8",
+      "name": "Dragon ball Z",
+      "url": "https://www.crunchyroll.com/en-gb/Dragon_Ball_Z"
+    },
+    {
+      "id": "9",
+      "name": "Dragon ball Super",
+      "url": "https://www.crunchyroll.com/dragon-ball-super"
+    },
+    {
+      "id": "10",
+      "name": "Attack on Titan",
+      "url": "https://www.crunchyroll.com/en-gb/attack-on-titan"
+    },
+    {
+      "id": "11",
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "url": "https://www.crunchyroll.com/en-gb/demon-slayer-kimetsu-no-yaiba"
+    },
+    {
+      "id": "12",
+      "name": "Hunter X Hunter",
+      "url": "https://www.crunchyroll.com/en-gb/hunter-x-hunter"
+    },
+    {
+      "id": "13",
+      "name": "The Seven Deadly Sins",
+      "url": "https://www.netflix.com/in/title/80050063"
+    },
+    {
+      "id": "14",
+      "name": "Classroom of the elite",
+      "url": "https://www.crunchyroll.com/en-gb/classroom-of-the-elite"
+    },
+    {
+      "id": "15",
+      "name": "Jujutsu Kaisen",
+      "url": "https://www.crunchyroll.com/en-gb/jujutsu-kaisen"
+    },
+    {
+      "id": "16",
+      "name": "One Punch Man",
+      "url": "https://www.crunchyroll.com/en-gb/one-punch-man"
+    },
+    {
+      "id": "17",
+      "name": "Assanination Classroom",
+      "url": "https://www.crunchyroll.com/en-gb/assassination-classroom"
+    },
+    {
+      "id": "18",
+      "name": "Kakegurui",
+      "url": "https://www.netflix.com/in/title/80175351"
+    },
+    {
+      "id": "19",
+      "name": "Kimi No Nawa",
+      "url": "https://www.netflix.com/in/title/80175351"
+    },
+    {
+      "id": "20",
+      "name": "Violet Evergarden",
+      "url": "https://www.netflix.com/in/title/80175351"
+    },
+    {
+      "id": "21",
+      "name": "Haikyuu",
+      "url": "https://www.netflix.com/in/title/80090673"
+    },
+    {
+      "id": "22",
+      "name": "A Silent Voice",
+      "url": "https://www.netflix.com/in/title/80223226"
+    },
+    {
+      "id": "23",
+      "name": "Dr. Stone",
+      "url": "https://www.netflix.com/in/title/81405628"
+    }
+  ]
+}

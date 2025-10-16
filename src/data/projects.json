@@ -1,0 +1,423 @@
+{
+  "title": "Projects",
+  "projects": [
+    {
+      "name": "Cardswala.com",
+      "desc": "Developed a full-stack credit card comparison platform enabling users to explore, filter, and apply for credit cards by category. Built an AI-driven backend pipeline using Gemini and RAG to intelligently scrape, extract, and structure credit card data. Implemented the backend with Cursor and Trae stack. Designed and scaled the frontend using V0 and Next.js.",
+      "url": "https://www.cardswala.com/",
+      "year": "September 2024 - Present",
+      "collaboration": "Duo",
+      "img": "../images/Projects/cardswala.png",
+      "techs": [
+        {
+          "name": "Python",
+          "url": "https://www.python.org/",
+          "img": "../images/TechStack/python.png"
+        },
+        {
+          "name": "Next.js",
+          "url": "https://nextjs.org/",
+          "img": "../images/TechStack/nextjs.png"
+        },
+        {
+          "name": "Gemini",
+          "url": "https://deepmind.google/technologies/gemini/",
+          "img": "../images/TechStack/gemini.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "Website",
+          "url": "https://www.cardswala.com/",
+          "img": "../images/Socials/website.png"
+        }
+      ]
+    },
+    {
+      "name": "Fyers Trading App",
+      "desc": "Built an intuitive interface to monitor orders and adjust algorithm parameters, allowing real-time influence over decision-making logic. Developed an options trading algorithm using the FyersTrading API to execute buy and sell operations at second-level intervals.",
+      "url": "",
+      "year": "Aug 2024",
+      "collaboration": "Duo",
+      "img": "../images/Projects/fyers.png",
+      "techs": [
+        {
+          "name": "Python",
+          "url": "https://www.python.org/",
+          "img": "../images/TechStack/python.png"
+        },
+        {
+          "name": "Flutter",
+          "url": "https://flutter.dev/",
+          "img": "../images/TechStack/flutter.png"
+        }
+      ],
+      "urls": []
+    },
+    {
+      "name": "Pokédex",
+      "desc": "Pokédex is a mobile app that lists all the pokémon in the Pokémon Universe with all their evolutions, stats, and other various info. This app currently has over 500k downloads on Google Playstore.",
+      "url": "https://github.com/anshrathod/Pokedex",
+      "img": "../images/Projects/pokedex.png",
+      "techs": [
+        {
+          "name": "Flutter",
+          "url": "https://flutter.dev/",
+          "img": "../images/TechStack/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "url": "https://dart.dev/",
+          "img": "../images/TechStack/dart.png"
+        },
+        {
+          "name": "MongoDB",
+          "url": "https://www.mongodb.com/",
+          "img": "../images/TechStack/mongo.png"
+        },
+        {
+          "name": "Heroku",
+          "url": "https://www.heroku.com/",
+          "img": "../images/TechStack/heroku.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "Code",
+          "url": "https://github.com/anshrathod/Pokedex",
+          "img": "../images/Socials/github.png"
+        },
+        {
+          "name": "App",
+          "url": "https://play.google.com/store/apps/details?id=un.shh.pokedex",
+          "img": "../images/TechStack/android.png"
+        },
+        {
+          "name": "Demo",
+          "url": "https://pokedex-mini-encyclopedia.en.softonic.com/android",
+          "img": "../images/Socials/website.png"
+        }
+      ]
+    },
+    {
+      "name": "IconFinder",
+      "desc": "Used Selenium for scraping multiple websites to get the icon SVGs. 10k+ website views and 50k+ icon downloads from the website. Developed an Angular website to aggregate multiple open-source icon packs into one place.",
+      "url": "https://anshrathod.github.io/IconFinder/",
+      "img": "../images/Projects/iconfinder.png",
+      "techs": [
+        {
+          "name": "Angular",
+          "url": "https://angular.io/",
+          "img": "../images/TechStack/angular.png"
+        },
+        {
+          "name": "Selenium",
+          "url": "https://www.selenium.dev/",
+          "img": "../images/TechStack/selenium.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "Code",
+          "url": "https://github.com/anshrathod/IconFinder",
+          "img": "../images/Socials/github.png"
+        },
+        {
+          "name": "Demo",
+          "url": "https://anshrathod.github.io/IconFinder/",
+          "img": "../images/Socials/website.png"
+        }
+      ]
+    },
+    {
+      "name": "button_animations",
+      "desc": "button_animations is a pub.dev package that helps you make highly customizable animated 3d-buttons.",
+      "url": "https://pub.dev/packages/button_animations",
+      "img": "../images/TechStack/flutter.png",
+      "techs": [
+        {
+          "name": "Flutter",
+          "url": "https://flutter.dev/",
+          "img": "../images/TechStack/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "url": "https://dart.dev/",
+          "img": "../images/TechStack/dart.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "pub.dev",
+          "url": "https://pub.dev/packages/button_animations",
+          "img": "../images/TechStack/dart.png"
+        },
+        {
+          "name": "Code",
+          "url": "https://github.com/anshrathod/button_animations",
+          "img": "../images/TechStack/github.png"
+        }
+      ]
+    },
+    {
+      "name": "BotRuto_py",
+      "desc": "BotRuto_py is a twitter bot that retweets every tweet with certain hashtags and also follows everyone who follows the bot.",
+      "url": "https://twitter.com/botruto_py",
+      "img": "../images/Projects/botruto.png",
+      "techs": [
+        {
+          "name": "API",
+          "url": "https://developer.twitter.com/en/docs/twitter-api",
+          "img": "../images/Socials/twitter.png"
+        },
+        {
+          "name": "Python",
+          "url": "https://www.python.org/",
+          "img": "../images/TechStack/python.png"
+        },
+        {
+          "name": "Tweepy",
+          "url": "https://www.tweepy.org/",
+          "img": "../images/TechStack/python.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "Bot",
+          "url": "https://twitter.com/botruto_py",
+          "img": "../images/Socials/twitter.png"
+        }
+      ]
+    },
+    {
+      "name": "HashMail",
+      "desc": "HashMail is a blockchain based email system. It is a chrome extension that can be used with gmail to make emails secure.",
+      "url": "https://github.com/anshganatra/hashmail",
+      "img": "../images/Projects/hashMail.png",
+      "techs": [
+        {
+          "name": "Ethereum",
+          "url": "https://ethereum.org/en/",
+          "img": "../images/TechStack/ethereum.png"
+        },
+        {
+          "name": "Solidity",
+          "url": "https://docs.soliditylang.org/en/v0.8.6/",
+          "img": "../images/TechStack/solidity.png"
+        },
+        {
+          "name": "Ganache",
+          "url": "https://www.trufflesuite.com/ganache",
+          "img": "../images/TechStack/ganache.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "Code",
+          "url": "https://github.com/anshganatra/hashmail",
+          "img": "../images/Socials/github.png"
+        }
+      ]
+    },
+    {
+      "name": "Pokédex",
+      "desc": "Pokédex is a mobile app that lists all the pokémon in the Pokémon Universe with all their evolutions, stats, and other various info. This app currently has over 500k downloads on Google Playstore.",
+      "url": "",
+      "img": "../images/Projects/pokedex.png",
+      "techs": [
+        {
+          "name": "Flutter",
+          "url": "https://flutter.dev/",
+          "img": "../images/TechStack/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "url": "https://dart.dev/",
+          "img": "../images/TechStack/dart.png"
+        },
+        {
+          "name": "MongoDB",
+          "url": "https://www.mongodb.com/",
+          "img": "../images/TechStack/mongo.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "Code",
+          "url": "https://github.com/anshrathod/Pokedex",
+          "img": "../images/Socials/github.png"
+        },
+        {
+          "name": "App",
+          "url": "https://play.google.com/store/apps/details?id=un.shh.pokedex",
+          "img": "../images/TechStack/android.png"
+        }
+      ]
+    },
+    {
+      "name": "button_animations",
+      "desc": "button_animations is a pub.dev package that helps you make highly customizable animated 3d-buttons.",
+      "url": "https://pub.dev/packages/button_animations",
+      "img": "../images/TechStack/flutter.png",
+      "techs": [
+        {
+          "name": "Flutter",
+          "url": "https://flutter.dev/",
+          "img": "../images/TechStack/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "url": "https://dart.dev/",
+          "img": "../images/TechStack/dart.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "pub.dev",
+          "url": "https://pub.dev/packages/button_animations",
+          "img": "../images/TechStack/dart.png"
+        },
+        {
+          "name": "Code",
+          "url": "https://github.com/anshrathod/button_animations",
+          "img": "../images/TechStack/github.png"
+        }
+      ]
+    },
+    {
+      "name": "Corona Tracker",
+      "desc": "Corona Tracker is an android app that tracks the number of COVID cases in India and segregates them into stats for all the states.",
+      "url": "https://github.com/anshrathod/Covid19-Tracker",
+      "img": "../images/Projects/coronaTracker.png",
+      "techs": [
+        {
+          "name": "Ionic",
+          "url": "https://ionicframework.com/",
+          "img": "../images/TechStack/ionic.png"
+        },
+        {
+          "name": "Angular",
+          "url": "https://angular.io/start",
+          "img": "../images/TechStack/angular.png"
+        },
+        {
+          "name": "Flask",
+          "url": "https://flask.palletsprojects.com/en/2.0.x/",
+          "img": "../images/TechStack/flask.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "Code",
+          "url": "https://github.com/anshrathod/Covid19-Tracker",
+          "img": "../images/Socials/github.png"
+        }
+      ]
+    },
+    {
+      "name": "Lyrico",
+      "desc": "Lyrico is a website where you can stream audio, video, and read the lyrics for your favorite songs at a single place.",
+      "url": "http://rathosansh.pythonanywhere.com/",
+      "img": "../images/Projects/lyrico.png",
+      "techs": [
+        {
+          "name": "Django",
+          "url": "https://www.djangoproject.com/",
+          "img": "../images/TechStack/django.png"
+        },
+        {
+          "name": "SQLite3",
+          "url": "https://www.sqlite.org/index.html",
+          "img": "../images/TechStack/sqlite3.png"
+        },
+        {
+          "name": "Python",
+          "url": "https://www.python.org/",
+          "img": "../images/TechStack/python.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "Code",
+          "url": "https://github.com/anshrathod/Lyrico",
+          "img": "../images/Socials/github.png"
+        },
+        {
+          "name": "Website",
+          "url": "http://rathosansh.pythonanywhere.com/",
+          "img": "../images/Socials/website.png"
+        }
+      ]
+    },
+    {
+      "name": "EndlessQuiz: Learn & Grow",
+      "desc": "Endless Quiz: Learn & Grow is an android app where you get to test your knowledge by answering questions from various categories.",
+      "url": "https://play.google.com/store/apps/details?id=un.shh.endlessquizapi.io",
+      "img": "../images/Projects/endlessQuiz.png",
+      "techs": [
+        {
+          "name": "Ionic",
+          "url": "https://ionicframework.com/",
+          "img": "../images/TechStack/ionic.png"
+        },
+        {
+          "name": "Angular",
+          "url": "https://angular.io/start",
+          "img": "../images/TechStack/angular.png"
+        },
+        {
+          "name": "Flask",
+          "url": "https://flask.palletsprojects.com/en/2.0.x/",
+          "img": "../images/TechStack/flask.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "App",
+          "url": "https://play.google.com/store/apps/details?id=un.shh.endlessquizapi.io",
+          "img": "../images/TechStack/android.png"
+        },
+        {
+          "name": "Code",
+          "url": "https://github.com/anshrathod/EndLess-Quiz",
+          "img": "../images/Socials/github.png"
+        }
+      ]
+    },
+    {
+      "name": "CashFlow",
+      "desc": "CashFlow is an android app with an intuitive UI where you can earn money simply by playing games and logging in daily.",
+      "url": "https://cashflow-landingpage.netlify.app/",
+      "img": "../images/Projects/cashflow.png",
+      "techs": [
+        {
+          "name": "Flutter",
+          "url": "https://flutter.dev/",
+          "img": "../images/TechStack/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "url": "https://dart.dev/",
+          "img": "../images/TechStack/dart.png"
+        },
+        {
+          "name": "Firebase",
+          "url": "https://firebase.google.com/",
+          "img": "../images/TechStack/firebase.png"
+        }
+      ],
+      "urls": [
+        {
+          "name": "Website",
+          "url": "https://cashflow-landingpage.netlify.app/",
+          "img": "../images/Socials/website.png"
+        },
+        {
+          "name": "App",
+          "url": "https://play.google.com/store/apps/details?id=un.shh.cashflow",
+          "img": "../images/TechStack/android.png"
+        }
+      ]
+    }
+  ]
+}

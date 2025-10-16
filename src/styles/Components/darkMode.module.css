@@ -1,0 +1,67 @@
+/* .img{
+  height: 50px;
+  width: 50px;
+  aspect-ratio: 1;
+} */
+
+/* .img:hover{
+  /* transform: translateY(100%) translateX(100%); 
+  animation: myOrbit 5s linear infinite; 
+}
+
+@keyframes myOrbit {
+  from { -webkit-transform:rotate(0deg) } 
+  to { -webkit-transform:rotate(360deg) }
+} 
+*/
+.maindiv{
+  position: relative;
+  --imagesize: 50px;
+  margin-right: calc(var(--imagesize));
+
+  margin-left: auto;
+} 
+
+
+.img{
+  transform: rotate(-45deg);
+
+}
+
+@media screen and (max-width:480px) {
+  .maindiv{
+    position: relative;
+    --imagesize: 30px;
+  }
+}
+
+.outerdiv{
+  width:calc(var(--imagesize)*4);
+  height:calc(var(--imagesize)*4);
+  position:absolute;
+  /* background-color:yellow; */
+  z-index: 1;
+  transform: rotate(45deg);
+  top:calc(var(--imagesize)/2);
+  left:calc(var(--imagesize)*-2);
+}
+
+.lightmode{
+  position:absolute;
+  top:0;
+  left:0;
+  width:var(--imagesize);
+  height:var(--imagesize);
+  /* background:red; */
+  border-radius:50%;
+}
+
+.darkmode{
+  position:absolute;
+  top:calc(var(--imagesize)*3);
+  left:calc(var(--imagesize)*3);
+  width:var(--imagesize);
+  height:var(--imagesize);
+  /* background:blue; */
+  border-radius:50%;
+}

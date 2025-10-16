@@ -1,0 +1,116 @@
+{
+  "title": "TechStack",
+  "techs": [
+    {
+      "name": "Python",
+      "img": "../images/TechStack/python.png",
+      "url": "https://www.python.org/"
+    },
+    {
+      "name": "Langchain",
+      "img": "../images/TechStack/langchain.webp",
+      "url": "https://www.langchain.com/"
+    },
+    {
+      "name": "Flask",
+      "img": "../images/TechStack/flask.png",
+      "url": "https://flask.palletsprojects.com/"
+    },
+    {
+      "name": "FastAPI",
+      "img": "../images/TechStack/fastapi.png",
+      "url": "https://fastapi.tiangolo.com/"
+    },
+    {
+      "name": "Java",
+      "img": "../images/TechStack/java.png",
+      "url": "https://www.java.com/en/"
+    },
+    {
+      "name": "Spring Boot",
+      "img": "../images/TechStack/spring.png",
+      "url": "https://spring.io/projects/spring-boot"
+    },
+    {
+      "name": "Kafka",
+      "img": "../images/TechStack/kafka.png",
+      "url": "https://kafka.apache.org/"
+    },
+    {
+      "name": "AWS",
+      "img": "../images/TechStack/aws.webp",
+      "url": "https://aws.amazon.com/"
+    },
+    {
+      "name": "JavaScript",
+      "img": "../images/TechStack/js.png",
+      "url": "https://www.javascript.com/"
+    },
+    {
+      "name": "Node.js",
+      "img": "../images/TechStack/node.png",
+      "url": "https://nodejs.org/en/"
+    },
+    {
+      "name": "Next.js",
+      "img": "../images/TechStack/nextjs.png",
+      "url": "https://nextjs.org/"
+    },
+    {
+      "name": "Ionic",
+      "img": "../images/TechStack/ionic.png",
+      "url": "https://ionicframework.com/"
+    },
+
+    {
+      "name": "Dart",
+      "img": "../images/TechStack/dart.png",
+      "url": "https://dart.dev/"
+    },
+    {
+      "name": "Flutter",
+      "img": "../images/TechStack/flutter.png",
+      "url": "https://flutter.dev/"
+    },
+    {
+      "name": "Firebase",
+      "img": "../images/TechStack/firebase.png",
+      "url": "https://firebase.google.com/"
+    },
+    {
+      "name": "Qdrant",
+      "img": "../images/TechStack/qdrant.png",
+      "url": "https://qdrant.tech/"
+    },
+    {
+      "name": "SQL",
+      "img": "../images/TechStack/sql.png",
+      "url": "https://www.mysql.com/"
+    },
+    {
+      "name": "MongoDB",
+      "img": "../images/TechStack/mongo.png",
+      "url": "https://www.mongodb.com/"
+    },
+    {
+      "name": "Redis",
+      "img": "../images/TechStack/redis.png",
+      "url": "https://redis.io/"
+    },
+    {
+      "name": "PostgreSQL",
+      "img": "../images/TechStack/postgres.png",
+      "url": "https://www.postgresql.org/"
+    },
+    {
+      "name": "Git",
+      "img": "../images/TechStack/git.png",
+      "url": "https://git-scm.com/"
+    },
+    {
+      "name": "GitHub",
+      "img": "../images/TechStack/github.png",
+      "url": "https://github.com/"
+    }
+  ]
+}

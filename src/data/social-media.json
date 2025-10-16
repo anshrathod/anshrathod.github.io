@@ -1,0 +1,43 @@
+{
+  "title": "Social Media",
+  "name": "Ansh Rathod",
+  "resumeUrl": "https://drive.google.com/drive/folders/16zifVx2Ji-iAW1q_n7NZFDle4JDPJp4J?usp=sharing",
+  "socials": [
+    {
+      "name": "Mail",
+      "handle": "ansh.rathod447@gmail.com",
+      "url": "mailto:ansh.rathod447@gmail.com",
+      "img": "../images/Socials/mail.png"
+    },
+    {
+      "name": "LinkedIn",
+      "handle": "anshrathod",
+      "url": "https://www.linkedin.com/in/anshrathod/",
+      "img": "../images/Socials/linkedin.png"
+    },
+    {
+      "name": "GitHub",
+      "handle": "anshrathod",
+      "url": "https://www.github.com/anshrathod/",
+      "img": "../images/Socials/github.png"
+    },
+    {
+      "name": "Instagram",
+      "handle": "anshrathod.99",
+      "url": "https://www.instagram.com/anshrathod.99/",
+      "img": "../images/Socials/instagram.png"
+    },
+    {
+      "name": "Telegram",
+      "handle": "unshh",
+      "url": "https://t.me/unshh",
+      "img": "../images/Socials/telegram.png"
+    },
+    {
+      "name": "Twitter",
+      "handle": "unshh_codes",
+      "url": "https://twitter.com/unshh_codes",
+      "img": "../images/Socials/twitter.png"
+    }
+  ]
+}

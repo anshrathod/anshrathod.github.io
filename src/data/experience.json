@@ -1,0 +1,41 @@
+{
+  "title": "Experience",
+  "jobs": [
+    {
+      "name": "Founding Senior Software Engineer",
+      "company": "EdraLabs",
+      "year": "Mar 2024 - Present",
+      "location": "Mumbai, IN",
+      "techStack": "Langchain, Python, Flask, Qdrant, Postgres",
+      "desc": "Developed an AI-driven web scraping tool focusing on data collection, aggregation, and structuring. Designed and implemented a scalable AI solution exposed as an API interface. Implemented Retrieval-Augmented Generation (RAG) to extract critical data chunks. Designed and deployed a workflow for the internal content team using adminJS. Integrated Metabase for data visualization and created an alert management system. Set up and configured Signoz to monitor OpenTelemetry (Otel) data.",
+      "img": "../images/Experience/edralabs.png"
+    },
+    {
+      "name": "Software Development Engineer II",
+      "company": "Bharatpe",
+      "year": "Jul 2022 - Mar 2024",
+      "location": "Gurugram, New Delhi, IN",
+      "techStack": "Java, Spring boot, Kafka, MongoDB, MySQL",
+      "desc": "Designed and implemented eNACH for the Personal Loan product, boosting loan collections by 45%. Integrated services of multiple NBFCs to enable Postpe as a Direct Selling Agent (DSA), increasing revenue by 8% per month. Contributed to the development, maintenance, and enhancement of ledger management and bill generation systems. Developed a system to make Postpe a payment option in multiple payment gateways, raising the average user bill by ₹250 per month. Contributed to the development and maintenance of Credit Card Bill Payment (CCBP) and Utility Bill Payment (UBP) services, improving test case coverage to 89%. Built and maintained the consumer token system for secure user login.",
+      "img": "../images/Experience/bharatpe.png"
+    },
+    {
+      "name": "Software Engineer",
+      "company": "Arcon Tech Solutions",
+      "year": "Jun 2021 - Jul 2022",
+      "location": "Mumbai, IN",
+      "techStack": "TypeScript, Angular, Postgres, AG-Grid",
+      "desc": "Designed and developed an Angular application from scratch to replace a legacy desktop application, enhancing usability and modernizing the user interface. Helped in creating the password management tool for SSO. Integrated 3rd-party components, improving application efficiency by 1.4x. Mentored and oversaw development activities of a junior software developer.",
+      "img": "../images/Experience/arconnet.png"
+    },
+    {
+      "name": "Software Intern",
+      "company": "Arcon Tech Solutions",
+      "year": "May 2020 - Aug 2020",
+      "location": "Mumbai, IN",
+      "techStack": "Python, pyp2p, bash, C#, pymouse, pyclick",
+      "desc": "Developed a UI automation tool for Linux systems using Python, doubling testing efficiency. Created a Peer-to-Peer file-sharing application utilizing the Torrent protocol and Tkinter. Conducted penetration testing using Burp Suite to identify and mitigate security vulnerabilities. Designed and integrated a snip-like tool for a Windows-based UI automation tool using C# and Python.",
+      "img": "../images/Experience/arconnet.png"
+    }
+  ]
+}

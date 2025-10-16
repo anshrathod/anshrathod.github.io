@@ -1,0 +1,23 @@
+{
+  "title": "Blogs",
+  "blogs": [
+    {
+      "name": "How to write a Python web API with Flask and Flask-restful",
+      "desc": "Use Flask, one of the fastest-growing Python frameworks, to fetch data from a server, in this quick tutorial.",
+      "url": "https://medium.com/@ansh.rathod/how-to-write-a-python-web-api-with-flask-e3ab631a7bff",
+      "img": "../images/Blogs/flask.jpeg"
+    },
+    {
+      "name": "List of HTTP methods — every web developer should know ",
+      "desc": "Ever wondered what the difference is between GET and POST requests, or when to use PUT? You're not alone. Having a basic understanding of the different HTTP methods, or verbs, an API supports is an helpful knowledge when exploring and testing APIs.",
+      "url": "https://medium.com/unshh/list-of-http-methods-every-web-developer-should-know-7742cb1d1b6a",
+      "img": "../images/Blogs/methods.png"
+    },
+    {
+      "name": "List of HTTP status codes — Every web developer should know",
+      "desc": "",
+      "url": "https://medium.com/@ansh.rathod/list-of-http-status-codes-every-web-developer-should-know-27952a1cf991",
+      "img": "../images/Blogs/codes.png"
+    }
+  ]
+}

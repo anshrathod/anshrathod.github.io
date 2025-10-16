@@ -1,0 +1,25 @@
+{
+  "title": "Education",
+  "courses": [
+    {
+      "name": "B.Tech in Computer Science & Engineering",
+      "course": "K. J. Somaiya College Of Engineering (KJSCE)",
+      "year": "Aug 2017 - May 2021",
+      "location": "Mumbai, IN",
+      "gpa": "8.97",
+      "auditCourses": [
+        "Web Programming",
+        "Machine Learning",
+        "Big Data and Open Source Technology: NoSQL"
+      ],
+      "activities": "Emfinity: The Math Club (Technical Team)",
+      "img": "../images/Education/somaiya.png"
+    },
+    {
+      "name": "M320 - Data Modeling",
+      "course": "MongoDB University",
+      "year": "November 2020",
+      "img": "../images/Education/mongodb-university.png"
+    }
+  ]
+}

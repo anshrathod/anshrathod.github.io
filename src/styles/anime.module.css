@@ -1,0 +1,179 @@
+
+.divider {
+  animation: 2s divider 0.2s forwards;
+  transform: translateX(-100%);
+  border: 1px solid var(--red);
+  border-radius: 1px;
+  position: absolute;
+  margin: 10px;
+  margin-top: 20px;
+  left: -10px;
+}
+
+@keyframes divider {
+  to {
+    transform: translateX(0);
+  }
+}
+
+.title {
+  position: relative;
+  top: 30px;
+  right: 0;
+  bottom: 0;
+  font-weight: 800 !important;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--red-desc);
+  width: fit-content;
+}
+
+.desc {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  font-weight: 400 !important;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--text-color);
+}
+
+.name {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 17.5px;
+  font-weight: 500;
+}
+
+.name:hover,
+.name:hover > .id  {
+  animation: 1s scaleIt 0.2s forwards;
+}
+
+@keyframes scaleIt {
+  0% {
+    transform: scale(0.875);
+  }
+  100% {
+    transform: scale(1.125);
+  }
+}
+
+.id {
+  position: absolute;
+  top: -40px;
+  left: -20px;
+  color: #11111120;
+  font-size: 60px;
+  font-weight: 800;
+  color: var(--red-desc);
+  z-index: -1;
+}
+
+.btn {
+  width: 27%;
+  height: fit-content;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 1%;
+  margin: 2%;
+  margin-bottom: 5%;
+  float: left;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 1025px) {
+  .divider {
+    width: 2000px;
+    max-width: 70%;
+  }
+
+  .title {
+    font-size: 6rem;
+    line-height: 7rem;
+    letter-spacing: 10px;
+  }
+
+  .desc {
+    font-size: 3rem;
+    line-height: 4rem;
+    letter-spacing: 6px;
+    top: -60px;
+    padding-left: 125px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+  .divider {
+    width: 400px;
+    max-width: 40%;
+  }
+
+  .title {
+    font-size: 4.25rem;
+    line-height: 5rem;
+    letter-spacing: 6px;
+  }
+
+  .desc {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: 4px;
+    top: -50px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .divider {
+    width: 200px;
+    max-width: 40%;
+    margin-top: 2%;
+  }
+
+  .title {
+    font-size: 300%;
+    line-height: 100%;
+    letter-spacing: 3px;
+  }
+
+  .desc {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    top: -40px;
+    padding-left: 25px;
+  }
+
+  .btn {
+    width: 47%;
+    padding: 2%;
+    margin: 2% 0% 0% 2%;
+  }
+
+  .name {
+    width: 100%;
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    font-size: 10px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .id {
+    top: 0px;
+    left: 0px;
+    font-size: 0px;
+  }
+
+  .list{
+    margin-bottom: 30px;
+  }
+}
+
